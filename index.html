@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aanchal Pandey | Portfolio</title>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <a href="#home" class="logo">Aanchal<span>.</span></a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- home -->
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hello, It's Me</h3>
+    <h1>Aanchal Pandey</h1>
+    <h3>And I'm a <span class="multiple-text"></span></h3>
+    <p style="font-size: 1.6rem; max-width: 50rem; line-height: 1.6;">
+      B.Tech CSE (Cyber Security) student passionate about building secure, practical software solutions.
+    </p>
+    <div class="social-media">
+      <a href="https://github.com/anchal16-cmd" target="_blank"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/aanchal-pandey-a982a6382" target="_blank"><i class='bx bxl-linkedin'></i></a>
+      <a href="mailto:aanchi450@hmail.com"><i class='bx bx-envelope'></i></a>
+    </div>
+    <a href="#contact" class="btn">Contact Me</a>
+</div>
+<div class="home-img">
+    <img src="assets/profile.jpeg" alt="Aanchal Pandey">
+</div>
+</section>
+
+<!-- about -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="assets/profile.jpeg" alt="Aanchal Pandey">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>B.Tech CSE (Cyber Security) Student</h3>
+        <p>I'm Aanchal Pandey, a B.Tech CSE (Cyber Security) student passionate about Python development, networking, and cybersecurity. I enjoy turning ideas into practical projects, solving programming challenges, and continuously learning new technologies to build secure and impactful software solutions.</p>
+
+        <div class="education-box">
+          <h4>🎓 B.Tech in Computer Science Engineering — Cyber Security</h4>
+          <p>2nd Year Student</p>
+        </div>
+
+        <a href="#contact" class="btn">Let's Connect</a>
+    </div>
+</section>
+
+<!-- skills -->
+<section class="skills" id="skills">
+  <h2 class="heading">My <span>Skills</span></h2>
+
+  <div class="skills-container">
+    <div class="skills-box">
+      <i class='bx bxl-python'></i>
+      <h3>Python</h3>
+      <p>Scripting, automation & applications</p>
+    </div>
+
+    <div class="skills-box">
+      <i class='bx bxl-html5' ></i>
+      <h3>HTML</h3>
+      <p>Structuring web pages</p>
+    </div>
+
+    <div class="skills-box">
+      <i class='bx bxl-css3'></i>
+      <h3>CSS</h3>
+      <p>Styling responsive interfaces</p>
+    </div>
+
+    <div class="skills-box">
+      <i class='bx bx-shield-quarter'></i>
+      <h3>Cyber Security</h3>
+      <p>Fundamentals of security & safe systems</p>
+    </div>
+
+    <div class="skills-box">
+      <i class='bx bxs-spreadsheet'></i>
+      <h3>MS Excel</h3>
+      <p>Data organization & analysis</p>
+    </div>
+  </div>
+</section>
+
+<!-- achievements -->
+<section class="achievements" id="achievements">
+  <h2 class="heading">My <span>Achievements</span></h2>
+
+  <div class="achievement-card">
+    <i class='bx bxs-trophy'></i>
+    <div>
+      <h3>🏆 1st Position — Techthrive 2025 (24-Hour Hackathon)</h3>
+      <p>Secured 1st position in a 24-hour hackathon, "Techthrive 2025", held at Quantum University, Roorkee, competing under the B.Tech CSE category. Awarded Certificate of Merit by the Event Incharge and Vice Chancellor.</p>
+      <a href="#" class="btn" onclick="document.getElementById('certLightbox').classList.add('active');return false;">View Certificate</a>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="certLightbox">
+  <span class="lightbox-close" onclick="document.getElementById('certLightbox').classList.remove('active')">&times;</span>
+  <img src="assets/certificate-1.jpg" alt="Techthrive 2025 Certificate of Merit">
+</div>
+
+<!-- projects -->
+<section class="portfolio" id="portfolio">
+  <h2 class="heading">My <span>Projects</span></h2>
+
+  <div class="portfolio-container">
+
+   <div class="portfolio-box featured">
+      <img src="assets/citymate-main.png" alt="CityMate dashboard">
+      <div class="portfolio-info">
+        <span class="badge-featured">⭐ Featured</span>
+        <h4>🚀 CityMate – Service Finder Platform</h4>
+        <p>A full-stack web application that helps users discover trusted local service providers — plumbers, electricians, medical stores, and other essential services.
+           Includes user authentication, service management, a responsive interface, and location-based functionality.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>Express.js</span><span>SQLite</span><span>Git</span><span>GitHub</span><span>Render</span>
+        </div>
+        <div class="portfolio-links">
+          <a href="https://github.com/anchal16-cmd/citymate-frontend" target="_blank"><i class='bx bxl-github'></i>Frontend</a>
+          <a href="https://github.com/anchal16-cmd/citymate-backend" target="_blank"><i class='bx bxl-github'></i>Backend</a>
+          <a href="https://service-websites.onrender.com" target="_blank"><i class='bx bx-link-external'></i>Live Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="assets/qr-code.png" alt="Python QR Code Generator output" style="object-fit: contain; background:#fff;">
+      <div class="portfolio-info">
+        <h4>🐍 Python QR Code Generator</h4>
+        <p>A Python application that generates QR codes for URLs and text using the qrcode library — demonstrating third-party libraries and file handling.</p>
+        <div class="tech-tags"><span>Python</span><span>qrcode</span></div>
+        <div class="portfolio-links">
+          <a href="https://github.com/anchal16-cmd/learn-python-notes" target="_blank"><i class='bx bxl-github'></i>GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio-box">
+      <img src="assets/calculator-output.png" alt="Python Calculator terminal output" style="object-position: top;">
+      <div class="portfolio-info">
+        <h4>💻 Python Calculator</h4>
+        <p>A menu-driven calculator performing basic arithmetic operations through a command-line interface, strengthening fundamentals in functions, conditionals, and user input.</p>
+        <div class="tech-tags"><span>Python</span></div>
+        <div class="portfolio-links">
+          <a href="https://github.com/anchal16-cmd/learn-python-notes" target="_blank"><i class='bx bxl-github'></i>GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- contact -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+  <p>Feel free to reach out for collaborations, projects, or just to say hi!</p>
+
+  <div class="contact-container">
+    <div class="contact-box">
+      <i class='bx bx-envelope'></i>
+      <h4>Email</h4>
+      <a href="mailto:aanchi450@hmail.com">aanchi450@hmail.com</a>
+    </div>
+
+    <div class="contact-box">
+      <i class='bx bxl-linkedin'></i>
+      <h4>LinkedIn</h4>
+      <a href="https://www.linkedin.com/in/aanchal-pandey-a982a6382" target="_blank">aanchal-pandey</a>
+    </div>
+
+    <div class="contact-box">
+      <i class='bx bxl-github'></i>
+      <h4>GitHub</h4>
+      <a href="https://github.com/anchal16-cmd" target="_blank">anchal16-cmd</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-text">
+    <p>Copyright &copy; 2026 by Aanchal Pandey | All Rights Reserved.</p>
+  </div>
+
+  <div class="footer-iconTop">
+    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {
+  menuIcon.classList.toggle('bx-x');
+  navbar.classList.toggle('active');
+};
+
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+
+window.onscroll = () => {
+  sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop - 150;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute('id');
+
+    if (top >= offset && top < offset + height) {
+      navLinks.forEach(links => {
+        links.classList.remove('active');
+        let target = document.querySelector('header nav a[href*="' + id + '"]');
+        if (target) target.classList.add('active');
+      });
+    }
+  });
+
+  let header = document.querySelector('header');
+  header.classList.toggle('sticky', window.scrollY > 100);
+
+  menuIcon.classList.remove('bx-x');
+  navbar.classList.remove('active');
+};
+
+ScrollReveal({
+  distance: '80px',
+  duration: 2000,
+  delay: 200
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .skills-container, .portfolio-box, .contact-container, .achievement-card', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+
+const typed = new Typed('.multiple-text', {
+  strings: ['Python Developer', 'Cyber Security Enthusiast', 'B.Tech CSE Student'],
+  typeSpeed: 90,
+  backSpeed: 60,
+  backDelay: 1200,
+  loop: true
+});
+
+document.getElementById('certLightbox').addEventListener('click', function(e){
+  if (e.target === this) this.classList.remove('active');
+});
+</script>
+</body>
+</html>
