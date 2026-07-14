@@ -2,13 +2,6 @@
 
 A responsive, animated personal portfolio website built to showcase my skills, projects, and achievements as a B.Tech CSE (Cyber Security) student.
 
-![CityMate Screenshot](assets/citymate-main.png)
-
-## 🔗 Live Demo
-> Add your live link here once deployed (e.g. GitHub Pages / Netlify / Vercel)
->
-> `https://your-live-link.com`
-
 ## ✨ Features
 
 - **Home** — Animated introduction with typing effect showcasing my roles
